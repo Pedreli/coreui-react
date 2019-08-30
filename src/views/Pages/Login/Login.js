@@ -33,7 +33,7 @@ class Login extends Component {
                       </InputGroup>
                       <Row>
                         <Col xs="6">
-                          <Button color="primary" className="px-4">Login</Button>
+                          <Button color="primary" className="px-4">Entrar</Button>
                         </Col>
                         <Col xs="6" className="text-right">
                           <Button color="link" className="px-0">Esqueceu sua senha?</Button>
@@ -45,7 +45,7 @@ class Login extends Component {
                 <Card className="text-white bg-primary py-5 d-md-down-none" style={{ width: '44%' }}>
                   <CardBody className="text-center">
                     <div>
-                      <h2>Registre-se</h2>
+                      <h2>Cadastre-se</h2>
                       <p>Allow Dreams, a melhor rede social. Desenvolvida para fazer a diferença.</p>
                       <Link to="/register">
                         <Button color="primary" className="mt-3" active tabIndex={-1}>Cadastrar agora!</Button>

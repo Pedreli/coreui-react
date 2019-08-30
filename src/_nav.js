@@ -140,7 +140,7 @@ export default {
       ],
     },
     {
-      name: 'Buttons',
+      name: 'Botões',
       url: '/buttons',
       icon: 'icon-cursor',
       children: [
@@ -224,13 +224,9 @@ export default {
       ],
     },
     {
-      name: 'Widgets',
+      name: 'Visões',
       url: '/widgets',
       icon: 'icon-calculator',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
     },
     {
       divider: true,

@@ -54,22 +54,21 @@ class DefaultHeader extends Component {
           </NavItem>
           <UncontrolledDropdown nav direction="down">
             <DropdownToggle nav>
-              <img src={'../../assets/img/avatars/6.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
+              <img src={'../../assets/img/avatars/1.jpg'} className="img-avatar" />
             </DropdownToggle>
             <DropdownMenu right>
-              <DropdownItem header tag="div" className="text-center"><strong>Account</strong></DropdownItem>
-              <DropdownItem><i className="fa fa-bell-o"></i> Updates<Badge color="info">42</Badge></DropdownItem>
-              <DropdownItem><i className="fa fa-envelope-o"></i> Messages<Badge color="success">42</Badge></DropdownItem>
-              <DropdownItem><i className="fa fa-tasks"></i> Tasks<Badge color="danger">42</Badge></DropdownItem>
-              <DropdownItem><i className="fa fa-comments"></i> Comments<Badge color="warning">42</Badge></DropdownItem>
-              <DropdownItem header tag="div" className="text-center"><strong>Settings</strong></DropdownItem>
-              <DropdownItem><i className="fa fa-user"></i> Profile</DropdownItem>
-              <DropdownItem><i className="fa fa-wrench"></i> Settings</DropdownItem>
-              <DropdownItem><i className="fa fa-usd"></i> Payments<Badge color="secondary">42</Badge></DropdownItem>
-              <DropdownItem><i className="fa fa-file"></i> Projects<Badge color="primary">42</Badge></DropdownItem>
+              <DropdownItem header tag="div" className="text-center"><strong>Perfil</strong></DropdownItem>
+              <DropdownItem><i className="fa fa-envelope-o"></i> Mensagens<Badge color="success">42</Badge></DropdownItem>
+              <DropdownItem><i className="fa fa-tasks"></i> Tarefas<Badge color="danger">42</Badge></DropdownItem>
+              <DropdownItem><i className="fa fa-comments"></i> Comentários<Badge color="warning">42</Badge></DropdownItem>
+              <DropdownItem header tag="div" className="text-center"><strong>Configurações</strong></DropdownItem>
+              <DropdownItem><i className="fa fa-user"></i> Meu Perfil</DropdownItem>
+              <DropdownItem><i className="fa fa-wrench"></i> Ajustes</DropdownItem>
+              <DropdownItem><i className="fa fa-usd"></i> Promoções<Badge color="secondary">42</Badge></DropdownItem>
+              <DropdownItem><i className="fa fa-file"></i> Projetos<Badge color="primary">42</Badge></DropdownItem>
               <DropdownItem divider />
-              <DropdownItem><i className="fa fa-shield"></i> Lock Account</DropdownItem>
-              <DropdownItem onClick={e => this.props.onLogout(e)}><i className="fa fa-lock"></i> Logout</DropdownItem>
+              <DropdownItem><i className="fa fa-shield"></i>Segurança</DropdownItem>
+              <DropdownItem onClick={e => this.props.onLogout(e)}><i className="fa fa-lock"></i> Sair</DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
         </Nav>
