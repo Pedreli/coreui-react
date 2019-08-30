@@ -3,20 +3,41 @@ export default {
     {
       name: 'Allow Dreams',
       url: '/dashboard',
-      icon: 'icon-speedometer',
+      icon: 'icon-globe',
       badge: {
         variant: 'info',
-        text: 'NEW',
+        text: 'NOVO',
       },
     },
     {
       title: true,
-      name: 'Theme',
+      name: 'Usuário',
+    },
+    {
+      name: 'Páginas',
+      url: '/pages',
+      icon: 'icon-layers',
+      children: [
+        {
+          name: 'Entrar',
+          url: '/login',
+          icon: 'icon-check',
+        },
+        {
+          name: 'Registrar-se',
+          url: '/register',
+          icon: 'icon-user',
+        },
+      ],
+    },
+    {
+      title: true,
+      name: 'Temas',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
         attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
       },
-      class: ''             // optional class names space delimited list for title item ex: "text-center"
+      class: ''             
     },
     {
       name: 'Cores',
@@ -25,7 +46,7 @@ export default {
     },
     {
       title: true,
-      name: 'Components',
+      name: 'Outros',
       wrapper: {
         element: '',
         attributes: {},
@@ -146,7 +167,7 @@ export default {
       ],
     },
     {
-      name: 'Icons',
+      name: 'Icones',
       url: '/icons',
       icon: 'icon-star',
       children: [
@@ -214,26 +235,5 @@ export default {
     {
       divider: true,
     },
-    {
-      title: true,
-      name: 'Extras',
-    },
-    {
-      name: 'Páginas',
-      url: '/pages',
-      icon: 'icon-star',
-      children: [
-        {
-          name: 'Entrar',
-          url: '/login',
-          icon: 'icon-star',
-        },
-        {
-          name: 'Registrar-se',
-          url: '/register',
-          icon: 'icon-star',
-        },
-      ],
-    }
   ],
 };
