@@ -14,7 +14,7 @@ minimized | `{src, width, height, alt, className: 'navbar-brand-minimized' }`
 example:
 ```js
 import { AppNavbarBrand } from '@coreui/react';
-import logo from './logo.svg'
+import logo from './logo.png'
 import sygnet from './sygnet.svg'
 
 const full= { src: logo, width: 89, height: 25, alt: 'CoreUI Logo' }

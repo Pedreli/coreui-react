@@ -1,7 +1,7 @@
 export default {
   items: [
     {
-      name: 'Dashboard',
+      name: 'Allow Dreams',
       url: '/dashboard',
       icon: 'icon-speedometer',
       badge: {
@@ -19,14 +19,9 @@ export default {
       class: ''             // optional class names space delimited list for title item ex: "text-center"
     },
     {
-      name: 'Colors',
+      name: 'Cores',
       url: '/theme/colors',
       icon: 'icon-drop',
-    },
-    {
-      name: 'Typography',
-      url: '/theme/typography',
-      icon: 'icon-pencil',
     },
     {
       title: true,
@@ -186,7 +181,7 @@ export default {
       ],
     },
     {
-      name: 'Notifications',
+      name: 'Notificações',
       url: '/notifications',
       icon: 'icon-bell',
       children: [
@@ -224,28 +219,18 @@ export default {
       name: 'Extras',
     },
     {
-      name: 'Pages',
+      name: 'Páginas',
       url: '/pages',
       icon: 'icon-star',
       children: [
         {
-          name: 'Login',
+          name: 'Entrar',
           url: '/login',
           icon: 'icon-star',
         },
         {
-          name: 'Register',
+          name: 'Registrar-se',
           url: '/register',
-          icon: 'icon-star',
-        },
-        {
-          name: 'Error 404',
-          url: '/404',
-          icon: 'icon-star',
-        },
-        {
-          name: 'Error 500',
-          url: '/500',
           icon: 'icon-star',
         },
       ],

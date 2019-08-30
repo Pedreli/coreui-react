@@ -25,7 +25,7 @@ import navigation from '../../_nav.js';
 // routes config
 import routes from '../../routes.js';
 
-import logo from '../../assets/img/brand/logo.svg'
+import logo from '../../assets/img/brand/logo.png'
 import sygnet from '../../assets/img/brand/sygnet.svg'
 import avatar from '../../assets/img/avatars/6.jpg'
 
@@ -91,10 +91,6 @@ class DefaultLayout extends Component {
             Aside
           </AppAside>
         </div>
-        <AppFooter>
-          <span><a href="https://coreui.io">CoreUI</a> &copy; 2019 creativeLabs</span>
-          <span className="ml-auto">Powered by <a href="https://coreui.io/react">CoreUI for React</a></span>
-        </AppFooter>
       </div>
     );
   }
